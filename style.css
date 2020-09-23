@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url('https://amwine.ru/upload/blog/26-04-17-amwine-02.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  */
+    /* color: white; */
+    -webkit-print-color-adjust: exact;
+    padding: 30px;
+}
+.wrapper__block {
+    width: 100%;
+}
+.wrapper__title {
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper__header {
+    margin-left: 10px;
+    width: 100%;
+    text-align: left
+}
+
+.header {
+    width: 100%;
+    margin: 10px 10px;
+}
+
+.header__text {
+    width: 100%;
+    text-align: left;
+}
+
+.footer {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.footer__block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.photo {
+    height: 120px;
+    width: 110px;
+    margin-right: 10px;
+    border-radius: 70%;
+}
