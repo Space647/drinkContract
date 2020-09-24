@@ -1,4 +1,4 @@
-* {
+html, body {
     margin: 0;
     padding: 0;
 }
@@ -6,14 +6,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-image: url('https://amwine.ru/upload/blog/26-04-17-amwine-02.jpg');
+    background-image: url('https://img.fonwall.ru/o/bh/viski-jack-daniels-single-barrel-napitok.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;  */
-    /* color: white; */
+    background-size: 100% 100%; 
+    color: white;
     -webkit-print-color-adjust: exact;
-    padding: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
 }
 .wrapper__block {
+    
     width: 100%;
 }
 .wrapper__title {
